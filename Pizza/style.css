@@ -1,0 +1,154 @@
+.cabecalho{
+
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #c00909;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    z-index: 500;
+
+}
+
+.textocabecalho{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: x-large;
+
+}
+
+
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(194, 194, 194);
+    border: 2px solid rgb(220, 194, 5);
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+    padding: 20px;
+}
+
+.grid-card {
+
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(234, 229, 229);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.grid-image{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+.contato{
+
+    margin-left: 900px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+
+  h1 {
+    text-align: center;
+    color: #d32f2f;
+  }
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+
+
+  th {
+    background-color: #ffe0b2;
+  }
+
+  
+  .remove-btn {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+
+  .resumo {
+    margin-top: 30px;
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .resumo p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+
+  .finalizar-btn {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+
+  .finalizar-btn:hover {
+    background-color: #2e7d32;
+  }

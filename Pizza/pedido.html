@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Seu Pedido</h1>
+
+    <table>
+      <thead>
+
+        <tr>
+          <th>Nome da Pizza</th>
+          <th>Tamanho</th>
+          <th>Quantidade</th>
+          <th>Preço Unitário</th>
+          <th>Subtotal</th>
+          <th>Remover</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>Calabresa</td>
+          <td>Grande</td>
+          <td>2</td>
+          <td>R$ 35,00</td>
+          <td>R$ 70,00</td>
+          <td><button class="remove-btn">X</button></td>
+        </tr>
+        
+        <tr>
+          <td>Marguerita</td>
+          <td>Média</td>
+          <td>1</td>
+          <td>R$ 28,00</td>
+          <td>R$ 28,00</td>
+          <td><button class="remove-btn">X</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+  
+    <div class="resumo">
+      <p><strong>Total Parcial:</strong> R$ 98,00</p>
+      <p><strong>Frete:</strong> R$ 5,00</p>
+      <p><strong>Total Geral:</strong> R$ 103,00</p>
+    </div>
+  
+    <button class="finalizar-btn">Finalizar Pedido</button>
+
+</body>
+</html>
